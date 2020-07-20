@@ -1,0 +1,9 @@
+{
+	"network-configs": {
+		"hlf_multi_host_network": {
+			"name": "hlf_multi_host_network",
+			"profile": "./connection-profile/hlf_multi_host_network.json"
+		}
+	},
+	"license": "Apache-2.0"
+}
