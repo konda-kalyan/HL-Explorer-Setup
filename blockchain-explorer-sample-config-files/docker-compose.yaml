@@ -50,7 +50,7 @@ services:
     volumes:
       - ./examples/net1/config.json:/opt/explorer/app/platform/fabric/config.json
       - ./examples/net1/connection-profile:/opt/explorer/app/platform/fabric/connection-profile
-      - /home/ubuntu/HLF-Multi-Host-Docker-Swarm/network/crypto-config:/tmp/crypto
+      - /home/ubuntu/HL-Explorer-Setup/network/crypto-config:/tmp/crypto
       - walletstore:/opt/wallet
     command: sh -c "node /opt/explorer/main.js && tail -f /dev/null"
     ports:

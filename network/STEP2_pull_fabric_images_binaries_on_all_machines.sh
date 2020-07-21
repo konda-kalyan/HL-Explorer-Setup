@@ -16,8 +16,8 @@ source $ENV_LOCATION
 
 ./scp_env_file_to_worker_nodes.sh
 
-ssh ubuntu@$WORKER_NODE1_HOSTNAME 'cd ~/HLF-Multi-Host-Docker-Swarm/network; ./pull-fabric-images.sh; ./get-fabrc-binaries.sh'
-ssh ubuntu@$WORKER_NODE2_HOSTNAME 'cd ~/HLF-Multi-Host-Docker-Swarm/network; ./pull-fabric-images.sh; ./get-fabrc-binaries.sh'
+ssh ubuntu@$WORKER_NODE1_HOSTNAME 'cd ~/HL-Explorer-Setup/network; ./pull-fabric-images.sh; ./get-fabrc-binaries.sh'
+ssh ubuntu@$WORKER_NODE2_HOSTNAME 'cd ~/HL-Explorer-Setup/network; ./pull-fabric-images.sh; ./get-fabrc-binaries.sh'
 
 
 ./bring_down_whole_network_on_all_machines.sh

@@ -11,5 +11,5 @@ ENV_LOCATION=$PWD/.env
 echo $ENV_LOCATION
 source $ENV_LOCATION
 
-scp -r .env ubuntu@$WORKER_NODE1_HOSTNAME:~/HLF-Multi-Host-Docker-Swarm/network
-scp -r .env ubuntu@$WORKER_NODE2_HOSTNAME:~/HLF-Multi-Host-Docker-Swarm/network
+scp -r .env ubuntu@$WORKER_NODE1_HOSTNAME:~/HL-Explorer-Setup/network
+scp -r .env ubuntu@$WORKER_NODE2_HOSTNAME:~/HL-Explorer-Setup/network

@@ -11,7 +11,7 @@ rm -rf channel-artifacts
 rm -rf crypto-config
 
 # ORG2
-ssh ubuntu@$WORKER_NODE1_HOSTNAME 'cd ~/HLF-Multi-Host-Docker-Swarm/network; rm -rf channel-artifacts; rm -rf crypto-config; rm -rf ~/HLF-Multi-Host-Docker-Swarm/chaincodes/*'
+ssh ubuntu@$WORKER_NODE1_HOSTNAME 'cd ~/HL-Explorer-Setup/network; rm -rf channel-artifacts; rm -rf crypto-config; rm -rf ~/HL-Explorer-Setup/chaincodes/*'
 
 # ORG3
-ssh ubuntu@$WORKER_NODE2_HOSTNAME 'cd ~/HLF-Multi-Host-Docker-Swarm/network; rm -rf channel-artifacts; rm -rf crypto-config; rm -rf ~/HLF-Multi-Host-Docker-Swarm/chaincodes/*'
+ssh ubuntu@$WORKER_NODE2_HOSTNAME 'cd ~/HL-Explorer-Setup/network; rm -rf channel-artifacts; rm -rf crypto-config; rm -rf ~/HL-Explorer-Setup/chaincodes/*'
